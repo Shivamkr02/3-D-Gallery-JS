@@ -12,7 +12,7 @@ function updateGallery(){
     timer = setTimeout(()=>{
         x = x-45;
         updateGallery();
-    },1000)
+    },4000)
 }
 
 updateGallery();
